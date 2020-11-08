@@ -1,0 +1,257 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap');
+
+body{
+ margin:0px;
+ padding:0px;
+ background: white;
+}
+ul{
+ list-style:none;
+}
+a{
+ text-decoration:none;
+}
+nav{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 8vh;
+	background: purple;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.logo{
+	color: #ffffff;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 20px;
+}
+
+.nav-links{
+	display: flex;
+	justify-content: space-around;
+	width: 30%;
+}
+
+.nav-links li{
+	list-style: none;
+}
+
+.nav-links a{
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	letter-spacing: 4px;
+	font-weight: bold;
+	font-size: 14px;
+}
+video{
+  position: relative;
+  width: 100%;
+  max-height: 900px;
+  overflow: hidden;
+}
+.name{
+  font-family: 'Montserrat', sans-serif;
+ width: 500px;
+ position: absolute;
+ align-items: center;
+ left: 31%;
+ top: 50%;
+ margin: 0px;
+ padding: 0px;
+ text-align: center;
+ color: #ffffff;
+}
+.name p:nth-child(1),.name .details{
+ color:#BFBFBF;
+ font-size: 25px;
+}
+.name h1{
+  font-family: 'Montserrat', sans-serif;
+ font-size: 60px;
+ margin:0px;
+ letter-spacing: 3px;
+ color: #ffffff;
+} 
+
+#services{
+  background-color: #24252A;
+  width:100%;
+ height:100vh;
+ box-sizing: border-box;
+ font-family: 'Montserrat', sans-serif;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ padding-top: 40px ;
+} 
+.s-heading h1{
+ color:purple;
+ font-size: 3rem;
+ margin: 0px;
+ padding: 0px;
+ 
+}
+.s-heading p{
+ color:purple;
+ font-size: 1rem;
+ margin: 0px;
+ padding: 0px;
+}
+.s-heading{
+
+ text-align: center;
+ margin: 20px 0px;
+}
+.s-box{
+ background-color: purple;
+ width:300px;
+ height: 450px;
+ margin: 10px;
+ border-radius: 10px;
+ overflow: hidden;
+ box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+ position: relative;
+}
+.b-container{
+ display: flex;
+ justify-content: center;
+ align-content: center;
+ 
+ 
+}
+.s-b-img{
+ width: 100%;
+ height: 65%;
+ 
+}
+.s-b-img img{
+ width:100%;
+ height: 100%;
+ 
+}
+.s-b-text{
+ width: 100%;
+ height: 30%;
+ color: white;
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+}
+
+.s-type{
+ font-family: calibri;
+ color:#FFFFFF;
+ background-color: purple;
+ padding: 10px 15px;
+ position: absolute;
+ top: 0px;
+ left: 50%;
+ transform: translateX(-50%);
+ font-size: 18px;
+ border-radius: 0px 0px 10px 10px;
+ box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
+.s-box:hover{
+ transform:translateY(-10px);
+ transition: all ease 0.3s;
+}
+
+/* About The Game */
+.About-Section{
+	margin-top: 100px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 90%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.about > div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about > div > div.description > h1 {
+  color: purple;
+  font-size: 48px;
+  position: relative;
+  left: 40px;
+}
+
+.about > div > div.description > p {
+  color: purple;
+  font-size: 20px;
+  position: relative;
+  left: 40px;
+}
+
+.about > div > div.description2 > h1 {
+    color: purple;
+    font-size: 48px;
+    position: relative;
+    left: -70px;
+  }
+  
+  .about > div > div.description2 > p {
+    color: purple;
+    font-size: 20px;
+    position: relative;
+    left: -70px;
+  }
+
+.about2 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 90%;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.about2> div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about2 > div > div.description3 > h1 {
+  color: purple;
+  font-size: 48px;
+  position: relative;
+  left: 40px;
+}
+
+.about2 > div > div.description3 > p {
+  color: pruple;
+  font-size: 20px;
+  position: relative;
+  left: 40px;
+}
+
+.about2 > div > div.description4 > h1 {
+    color: purple;
+    font-size: 48px;
+    position: relative;
+    left: 100px;
+  }
+  
+  .about2 > div > div.description4 > p {
+    color: purple;
+    font-size: 20px;
+    position: relative;
+    left: 100px;
+  }
+
+      
+	/*About The Game*/
